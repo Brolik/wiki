@@ -19,3 +19,8 @@ Quick resource list.
 2. https://regexr.com/ - Build and test regular expressions
 3. http://phpdatefunction.com/ - Get the `date()` formats
 4. http://brolik.com/zencoder - Encode videos for web formats
+
+### Cheatsheets
+1. https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet - Github markdown
+2. https://docs.emmet.io/cheat-sheet/ - Emmet
+3. https://www.shopify.com/partners/shopify-cheat-sheet - Shopify / Liquid
