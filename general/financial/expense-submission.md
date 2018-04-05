@@ -3,7 +3,7 @@
 
 # Expense Submission
 
-## What am I doing?
+### What am I doing?
 Submitting any expenses incurred on Brolik’s or our clients’ behalf in the course of completing your roles and responsibilities
 
 ### When?
