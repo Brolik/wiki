@@ -18,3 +18,18 @@
 
 ![Gc Email Popup 1](/uploads/gc-email-popup-1.png "Gc Email Popup 1"){.modal-content}
 
+5. Change the `Name` field to `GrowthCurve`
+6. Add the email address you would like to connect: `info@growthcruve.fm` or `submissions@growthcurve.fm` In to the `Email address box`
+7. Click the Next Button
+8. On the next screen, enter the following information:
+**SMTP Server**: `h7sc-h872.accessdomain.com`
+**Port**: 465
+**Username**: `the email you're connecting`
+**Password**: `the password for the email` (you can find it in 1password)
+**Secured connection using SSL**
+![Gc Email Popup 2](/uploads/gc-email-popup-2.png "Gc Email Popup 2")
+
+9. Click next.
+10. You will come to one final screen asking for a verification code.
+
+11. Using 1password, connect to the webmail account you're trying to access. Under the `GC` Tag. Or ask another teammember who has already connected the account for the verification code.
