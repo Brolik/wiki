@@ -11,7 +11,7 @@
 ## Process
 1. Login to your Brolik gmail account. 
 2. Access your settings within Gmail ( Gear Icon > settings )
-![Screen Shot 2018 04 06 At 2 01 15 Pm](/uploads/screen-shot-2018-04-06-at-2-01-15-pm.png "Screen Shot 2018 04 06 At 2 01 15 Pm"){.test}
+![Screen Shot 2018 04 06 At 2 01 15 Pm](/uploads/screen-shot-2018-04-06-at-2-01-15-pm.png "Screen Shot 2018 04 06 At 2 01 15 Pm"){.modal-content}
 
 3. Navigate to Accounts
 4. Under "Send mail as:" Select `Add another email address`. This will open a new window.
