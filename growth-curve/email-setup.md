@@ -16,3 +16,5 @@
 3. Navigate to Accounts
 4. Under "Send mail as:" Select `Add another email address`. This will open a new window.
 
+![Gc Email Popup 1](/uploads/gc-email-popup-1.png "Gc Email Popup 1"){.modal-content}
+
