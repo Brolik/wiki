@@ -27,9 +27,10 @@
 **Username**: `the email you're connecting`
 **Password**: `the password for the email` (you can find it in 1password)
 **Secured connection using SSL**
-![Gc Email Popup 2](/uploads/gc-email-popup-2.png "Gc Email Popup 2")
+![Gc Email Popup 2](/uploads/gc-email-popup-2.png "Gc Email Popup 2"){.modal-content}
 
 9. Click next.
 10. You will come to one final screen asking for a verification code.
+![Gc Email Popup 3](/uploads/gc-email-popup-3.png "Gc Email Popup 3"){.modal-content}
 
 11. Using 1password, connect to the webmail account you're trying to access. Under the `GC` Tag. Or ask another teammember who has already connected the account for the verification code.
