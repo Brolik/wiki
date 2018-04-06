@@ -34,4 +34,3 @@
 ![Gc Email Popup 3](/uploads/gc-email-popup-3.png "Gc Email Popup 3"){.modal-content}
 
 11. Using 1password, connect to the webmail account you're trying to access. Under the `GC` Tag. Or ask another teammember who has already connected the account for the verification code.
-![Gc Email Code](/uploads/gc-email-code.png "Gc Email Code"){.modal-content}
