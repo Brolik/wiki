@@ -2,7 +2,8 @@
 <!-- SUBTITLE: A quick summary of Email Templates -->
 
 # Digital Marketing Consultation Process Email Templates
-##Introduction and Strategy Workshop Prep
+## Introduction and Strategy Workshop Prep
+
 
 Hi *|POC|*,
 
@@ -26,7 +27,7 @@ Other than that, just come ready to think strategically and creatively about you
 
 Thanks!
 
-##Stakeholders Workshop Followup
+## Stakeholders Workshop Followup
 
 Hi *|POC|*, 
 
