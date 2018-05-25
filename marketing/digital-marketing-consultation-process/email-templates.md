@@ -1,8 +1,8 @@
-<!-- TITLE: Email Templates -->
-<!-- SUBTITLE: A quick summary of Email Templates -->
+<!-- TITLE: Digital Marketing Consultation Process Email Templates -->
+<!-- SUBTITLE: A list of all  -->
 
-# Digital Marketing Consultation Process Email Templates
-## Introduction and Strategy Workshop Prep
+
+# Introduction and Strategy Workshop Prep
 
 
 Hi *|POC|*,
@@ -27,7 +27,7 @@ Other than that, just come ready to think strategically and creatively about you
 
 Thanks!
 
-## Stakeholders Workshop Followup
+# Stakeholders Workshop Followup
 
 Hi *|POC|*, 
 
@@ -52,7 +52,7 @@ Finally, you can expect to receive a Goals and KPIs overview from us this week!
 
 Thanks,
 
-## Goals and KPIs delivery
+# Goals and KPIs delivery
 Hi *|POC|*, 
 
 I have attached our first deliverable, the Goals and KPIs.
@@ -63,7 +63,7 @@ Once you have reviewed this document, we would like to jump on a call with you n
 
 Thanks, and let me know if you have any questions!
 
-## Brand Presence Audit Delivery
+# Brand Presence Audit Delivery
 Hey *|POC|*, 
 
 I have attached, for your reading pleasure, the second deliverable in our Digital Marketing Consultation process, the Brand Presence Audit.
