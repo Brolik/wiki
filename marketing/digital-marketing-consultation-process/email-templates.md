@@ -1,5 +1,5 @@
 <!-- TITLE: Digital Marketing Consultation Process Email Templates -->
-<!-- SUBTITLE: A list of all  -->
+<!-- SUBTITLE: A list of all the email templates needed for client communication through the Digital Marketing Consultation process  -->
 
 
 # Introduction and Strategy Workshop Prep
