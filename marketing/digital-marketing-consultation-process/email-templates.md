@@ -52,3 +52,13 @@ Finally, you can expect to receive a Goals and KPIs overview from us this week!
 
 Thanks,
 
+## Goals and KPIs delivery
+Hi *|POC|*, 
+
+I have attached our first deliverable, the Goals and KPIs.
+
+This document lays out our understanding of the goals for this project based on our initial conversations with your team, along with a breakdown of the metrics that we will use to define success for each goal.
+
+Once you have reviewed this document, we would like to jump on a call with you next week to briefly discuss  and make sure that we are on the same page. If any changes come out of this discussion, we will update the document and deliver an updated version. Let me know when you are available for a quick call in the next few days. 
+
+Thanks, and let me know if you have any questions!
