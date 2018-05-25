@@ -62,3 +62,17 @@ This document lays out our understanding of the goals for this project based on 
 Once you have reviewed this document, we would like to jump on a call with you next week to briefly discuss  and make sure that we are on the same page. If any changes come out of this discussion, we will update the document and deliver an updated version. Let me know when you are available for a quick call in the next few days. 
 
 Thanks, and let me know if you have any questions!
+
+## Brand Presence Audit Delivery
+Hey *|POC|*, 
+
+I have attached, for your reading pleasure, the second deliverable in our Digital Marketing Consultation process, the Brand Presence Audit.
+
+The goal of the Brand Presence Audit is to gauge how *|CLIENTS|* brand, marketing and digital presence stands against those of its competitors, and to begin identifying areas of opportunity for us to include in the Digital Marketing Launch Plan.
+
+Once you have reviewed this document, we’d love to hop on a call to discuss and answer any questions you may have. Let me know when you are available over the next few business days so that we can get something on the calendar.
+
+We plan to deliver the Target Audience Analysis next week as well, but we are hoping to get a few more interviews done before we wrap things up. I’m hoping these will go smoothly so that we have a nice variety of perspectives to include in our analysis. We’ll be in touch next week about our progress.
+
+Thanks, and have a great weekend!
+
