@@ -4,7 +4,7 @@
 <!-- Directions: Fill out each of the sections after the last * -->
 <!-- Besure to keep the {.is-info} at the bottom of the quote -->
 
-# Header
+# Mailchimp Email Templates
 
 > **Who should be doing this:** Designers
 {.is-info}
