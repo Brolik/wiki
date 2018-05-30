@@ -38,12 +38,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas ipsum a fin
 
 ## Task 2
 
-1.     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-	*     Cras in mi sit amet purus commodo aliquam id eget leo.
-	*     Ut tristique libero sed nisi blandit, nec commodo erat dignissim.
-1.     Suspendisse mattis lorem porta, pharetra ipsum vel, faucibus est.
-1.     Nulla sed nisl imperdiet, bibendum turpis ut, luctus lorem.
-	*     Praesent ut elit eu justo pulvinar lacinia ac vel ligula.
-	*     Nunc eu lacus vehicula, ultrices magna a, mattis mauris.
-1.     Aenean at nisi vel massa finibus cursus ac ut massa.
-1.     Integer lobortis neque nec mauris tempus ultrices.
+1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+	* Cras in mi sit amet purus commodo aliquam id eget leo.
+	* Ut tristique libero sed nisi blandit, nec commodo erat dignissim.
+1. Suspendisse mattis lorem porta, pharetra ipsum vel, faucibus est.
+1. Nulla sed nisl imperdiet, bibendum turpis ut, luctus lorem.
+	* Praesent ut elit eu justo pulvinar lacinia ac vel ligula.
+	* Nunc eu lacus vehicula, ultrices magna a, mattis mauris.
+1. Aenean at nisi vel massa finibus cursus ac ut massa.
+1. Integer lobortis neque nec mauris tempus ultrices.
