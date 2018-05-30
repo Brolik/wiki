@@ -37,14 +37,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas ipsum a fin
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas ipsum a finibus pharetra. Vivamus metus enim, varius non justo et, rhoncus semper arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla blandit scelerisque libero, eu laoreet risus pretium vel. Curabitur imperdiet semper tortor, sit amet consectetur nibh egestas a. Vestibulum vitae varius felis, ac mattis ipsum. Sed quis lacinia augue, ut imperdiet turpis. 
 
 ## Task 2
-1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas ipsum a finibus pharetra. Vivamus metus enim, varius non justo et, rhoncus semper arcu. 
-2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas ipsum a finibus pharetra. Vivamus metus enim, varius non justo et, rhoncus semper arcu. 
-	3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas ipsum a finibus pharetra. Vivamus metus enim, varius non justo et, rhoncus semper arcu. 
-	4. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas ipsum a finibus pharetra. Vivamus metus enim, varius non justo et, rhoncus semper arcu. 
-3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas ipsum a finibus pharetra. Vivamus metus enim, varius non justo et, rhoncus semper arcu. 
-4. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas ipsum a finibus pharetra. Vivamus metus enim, varius non justo et, rhoncus semper arcu. 
-5. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas ipsum a finibus pharetra. Vivamus metus enim, varius non justo et, rhoncus semper arcu. 
-	6. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas ipsum a finibus pharetra. Vivamus metus enim, varius non justo et, rhoncus semper arcu. 
-	7. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas ipsum a finibus pharetra. Vivamus metus enim, varius non justo et, rhoncus semper arcu. 
-6. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas ipsum a finibus pharetra. Vivamus metus enim, varius non justo et, rhoncus semper arcu. 
-	7. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas ipsum a finibus pharetra. Vivamus metus enim, varius non justo et, rhoncus semper arcu. 
+
+1.     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+	*     Cras in mi sit amet purus commodo aliquam id eget leo.
+	*     Ut tristique libero sed nisi blandit, nec commodo erat dignissim.
+1.     Suspendisse mattis lorem porta, pharetra ipsum vel, faucibus est.
+1.     Nulla sed nisl imperdiet, bibendum turpis ut, luctus lorem.
+	*     Praesent ut elit eu justo pulvinar lacinia ac vel ligula.
+	*     Nunc eu lacus vehicula, ultrices magna a, mattis mauris.
+1.     Aenean at nisi vel massa finibus cursus ac ut massa.
+1.     Integer lobortis neque nec mauris tempus ultrices.
