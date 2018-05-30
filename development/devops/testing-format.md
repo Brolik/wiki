@@ -1,10 +1,10 @@
-<!-- TITLE: Testing Format -->
+<!-- TITLE: Mailchimp Email Templates -->
 <!-- SUBTITLE: A quick summary of Testing Format -->
 
 <!-- Directions: Fill out each of the sections after the last * -->
 <!-- Besure to keep the {.is-info} at the bottom of the quote -->
 
-# Mailchimp Email Templates
+# Introduction
 
 > **Who should be doing this:** Designers
 {.is-info}
@@ -23,7 +23,7 @@
 
 -----
 
-
+# Process
 ## Task 1
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas ipsum a finibus pharetra. Vivamus metus enim, varius non justo et, rhoncus semper arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla blandit scelerisque libero, eu laoreet risus pretium vel. Curabitur imperdiet semper tortor, sit amet consectetur nibh egestas a. Vestibulum vitae varius felis, ac mattis ipsum. Sed quis lacinia augue, ut imperdiet turpis. 
 
