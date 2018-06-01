@@ -48,25 +48,30 @@ This list is up-to-date as of 06/01/2018. It is the list used by Kyle Jasso
 
 ```batchfile
 # Brolik.net server
+# cd domains/
 HOST BRO
   User brolik.net
   HostName s99349.gridserver.com
 
 # Brolik.com server
+# cd domains/
 HOST BROCOM
   User brolik.com
   HostName s48996.gridserver.com
 
 # EC2 Wiki Server
+# cd /var/www
 HOST BROW
   User ec2-user
   ForwardAgent yes
   HostName ec2-54-145-41-104.compute-1.amazonaws.com
 
+# cd domains/
 HOST CSA
   User christinaseixacademy.org
   HostName s209757.gridserver.com
 
+# cd public_html/
 HOST FISH
   User fishtown
   HostName chi14.stablehost.com
@@ -76,81 +81,93 @@ HOST JHP
   ForwardAgent yes
   HostName ec2-34-207-210-37.compute-1.amazonaws.com 
 
+# cd domains/
 HOST JTPL
   User clickitclam.com
   HostName s199603.gridserver.com
 
+# cd domains/
 HOST MAV
   User mavenagency.com
   HostName s71154.gridserver.com
 
+# cd domains/
 HOST MLCS
   User cosmetic-eyes.com
   HostName s208364.gridserver.com
 
 # Load Balancer 1
+# cd /var/www
 Host MLSPA
   User ec2-user
   HostName ec2-52-91-200-46.compute-1.amazonaws.com
   ForwardAgent yes
 
 # Load Balancer 2
+# cd/var/www
 Host MLSPAB
   User ec2-user
   HostName ec2-35-171-8-241.compute-1.amazonaws.com
   ForwardAgent yes
 
-HOST NUV
-  User nuvanna-brolik
-  HostName nuvanna.sftp.wpengine.com
-  Port 2222
-
+# cd domains/
 HOST PWR
   User powerhouse.com
   HostName s212252.gridserver.com
 
+# cd domains/
 HOST RFG
   User rehabfinancialgroup.com
   HostName s197969.gridserver.com
 
+# cd public_html
 HOST ROAM
   User ec2-user
   HostName ec2-34-236-150-182.compute-1.amazonaws.com
   ForwardAgent yes
 
+# cd domains/
 HOST SSM
   User summitsteelinc.com
   HostName s168214.gridserver.com
 
+# cd domains/
 HOST STI
   User stocktoninn.com
   HostName s178548.gridserver.com
 
+# cd domains/
 HOST GIC
   User globeinternationalcorp.com
   HostName s208811.gridserver.com
 
+# cd domains/
 HOST RPT
   User bereact.com
   HostName s177960.gridserver.com
 
 # Digital Ocean
+# cd public_html
 HOST UIC
   User root
   HostName 138.197.3.0
 
+# cd domains/
 HOST USV
   User upstagevideo.com
   HostName s160604.gridserver.com
 
+# cd domains/
 HOST WTR
   User worldtravelinc.com
   HostName s206783.gridserver.com
 
+# cd domains/
 HOST WTRP
   User portal.worldtravelinc.com
   HostName s181464.gridserver.com
 
+# cd domains/
 HOST VRS
   User vet.vrshealth.com
   HostName s211135.gridserver.com
