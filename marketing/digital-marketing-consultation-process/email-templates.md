@@ -76,3 +76,16 @@ We plan to deliver the Target Audience Analysis next week as well, but we are ho
 
 Thanks, and have a great weekend!
 
+# Target Audience Delivery
+Hey *|POC|*,
+
+Happy Friday! I have some more reading material for you and your team. Attached here is the third deliverable in our consultation process - the Target Audience Analysis.
+
+As you know, we have been working diligently on this report, which serves to paint a picture of your individual audience segments, their respective decision maker values, and how these align with their perception of */CLIENTS/* brand.
+
+Similar to the Brand Presence Audit, we'd like to schedule a call next week to go over this report once you've had a chance to review its contents. Let me know if there are any particular days/times that work best for you.
+
+Following this, the last piece of our consultation process is the Digital Marketing Campaign Rollout, which will pull the learnings from all of our deliverables into an actionable marketing plan. We're currently on track to have this over to you within the next two weeks.
+
+Thanks and enjoy your weekend!
+
