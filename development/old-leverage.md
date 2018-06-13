@@ -342,29 +342,19 @@ mysql_close($conn);
 ```
 
 #### Lines to Edit
-18. `$tableName = "";` Name of the table you created
-19. `$primaryKey = "";` Column name of primary key
-
-24. `$sortField = false; // or false;` False or the column name of the sort field, typically "orderNum"
-
-29. `$activeField = false; // or false;` False, or the column name of the active field, typically "active"
-
-35. `$noDelete = false; // or true;` Prevents the user from deleting entries
-
-40. `$orderby = "title ASC";` Defailt ordering if no sort field
-
-46. `$displayby = array("title");` Display fields, can be multiple fields
-
-54. `$title = "";` Shows up on the page as the title
-55. `$instructions = "";` Shows up on the page as instructions for the user
-
-60. `$ajaxFilename = "";` the name of the file you're creating. (What you're saving it as)
-
-65. `$fields = array();` A list of all the column names, excluding images, that need to be saved.
-
-111. `if(isset($_FILES[''])) {` Set `$_FILES['']` to the input name of an image upload
-
-112. `$addImage = addImage($tableName,$primaryKey,$primaryKeyVal,"","images/uploads","original","","w");` The function takes: (table name, primary key name, primayr key value, asset field name, upload location, size, asset field name, restrict w or h)
+LN 18: `$tableName = "";` Name of the table you created
+LN 19: `$primaryKey = "";` Column name of primary key
+LN 24: `$sortField = false; // or false;` False or the column name of the sort field, typically "orderNum"
+LN 29: `$activeField = false; // or false;` False, or the column name of the active field, typically "active"
+LN 35: `$noDelete = false; // or true;` Prevents the user from deleting entries
+LN 40: `$orderby = "title ASC";` Defailt ordering if no sort field
+LN 46: `$displayby = array("title");` Display fields, can be multiple fields
+LN 54: `$title = "";` Shows up on the page as the title
+LN 55: `$instructions = "";` Shows up on the page as instructions for the user
+LN 60: `$ajaxFilename = "";` the name of the file you're creating. (What you're saving it as)
+LN 65: `$fields = array();` A list of all the column names, excluding images, that need to be saved.
+LN 111: `if(isset($_FILES[''])) {` Set `$_FILES['']` to the input name of an image upload
+LN 112: `$addImage = addImage($tableName,$primaryKey,$primaryKeyVal,"","images/uploads","original","","w");` The function takes: (table name, primary key name, primayr key value, asset field name, upload location, size, asset field name, restrict w or h)
 
 Between lines 89 and 115 can be used for custom saving. If you need to do more then `PUT` or `INSERT` into the table, such as foregin key linking, do it here. You will need to write your own queries.
 
