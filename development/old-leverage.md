@@ -373,6 +373,7 @@ Between Lines 189 and 193, add the fields that are necessary for the page.
 <?php echo $formHTML['after']; ?>
 ```
 
+
 ```php
 <!-- --------------/ Textarea /------------------ -->
 <?php echo $formHTML['before']; ?>
@@ -383,6 +384,7 @@ Between Lines 189 and 193, add the fields that are necessary for the page.
 <?php echo $formHTML['after']; ?>
 ```
 
+
 ```php
 <!-- --------------/ Checkbox /------------ -->
 <?php echo $formHTML['before']; ?>
@@ -391,6 +393,7 @@ Between Lines 189 and 193, add the fields that are necessary for the page.
     <input type="checkbox" name="active" value="1" <?php if ($mq['active'] || $addNew) { echo "checked"; } ?> /><label>This will show up on the site</label>
 <?php echo $formHTML['after']; ?>
 ```
+
 
 ```php
 <!-- --------------/ File Field /------------------ -->
@@ -407,4 +410,293 @@ Between Lines 189 and 193, add the fields that are necessary for the page.
             <input type="file" name="image" value="" />
         <?php } ?>
 <?php echo $formHTML['after']; ?>
+```
+
+
+```php
+<!-- --------------/ Foreign Key /------------------ -->
+<?php echo $formHTML['before']; ?>
+    <label>Category</label>
+<?php echo $formHTML['between']; ?>
+    <select name="categoryID">
+        <option value="0">-</option>
+        <?php
+            $query = mysql_query("SELECT categoryID,name FROM examplecategories ORDER BY name ASC");
+            while ($q = mysql_fetch_assoc($query)) {
+                if ($mq['categoryID'] == $q['categoryID']) { $selected = "selected"; } else { $selected = ""; }
+                echo "<option value='$q[categoryID]' $selected>$q[name]</option>";
+            }
+        ?>
+    </select>
+<?php echo $formHTML['after']; ?>
+```
+*Note, this is a 1:1 relationship*
+
+```php
+<!-- --------------/ Datepicker /------------------ -->
+<?php echo $formHTML['before']; ?>
+    <label>Date</label>
+<?php echo $formHTML['between']; ?>
+    <input type="text" name="datevar" value="<?php if ($mq['datevar']>0) { echo $mq['datevar']; } else { echo date('Y-m-d'); } ?>" class="datepicker" />
+<?php echo $formHTML['after']; ?>
+```
+
+
+### Single Page Admin
+
+The sections you need to edit should be similar to the multi page admin, but the lines will be different.
+
+```php
+<?php
+include_once("database.php");
+include_once("lib/functions.php");
+$formSuffix = randomString();
+
+
+/* ======================================================================
+
+SETUP /
+Follow the steps below to set up both a list of database entries and a form to update each entry (first time the file loads, it displays the list, then clicking on a list item brings up the form to update that item)
+Lines ending with // x do not need to be changed... but feel free to anyway!
+
+====================================================================== */
+
+/* ----------------------------------------------------------------------
+1 / Set the database table and the primary key field.
+---------------------------------------------------------------------- */
+$tableName = "";
+$primaryKey = "";
+
+/* ----------------------------------------------------------------------
+2 / If entries can be manually sorted (drag and drop style), set the database field for an integer that holds each entries' order. Otherwise, set this to false.
+---------------------------------------------------------------------- */
+$sortField = false; // or false;
+
+/* ----------------------------------------------------------------------
+3 / To "gray out" inactive entries, set the database field for a boolean where 1 is "active" and 0 is "inactive." If there's no active/inactive field, set this to false.
+---------------------------------------------------------------------- */
+$activeField = false; // or false;
+if (!$activeField) { $activeField_query = ""; } else { $activeField_query = ",".$activeField; } // x
+
+/* ----------------------------------------------------------------------
+4 / If entries shouldn't be deleted, set this to true.
+---------------------------------------------------------------------- */
+$noDelete = true; // or true;
+
+/* ----------------------------------------------------------------------
+5 / If entries can't be manually sorted, set the ORDER BY part of the mysql query for the list of entries.
+---------------------------------------------------------------------- */
+$orderby = "title ASC";
+if ($sortField) { $orderby = $sortField." ASC"; } // x
+
+/* ----------------------------------------------------------------------
+6 / Set array values for the database field(s) used to display each entry.
+---------------------------------------------------------------------- */
+$displayby = array("title");
+
+$displayby_query = implode(",",$displayby); // x
+foreach($displayby as $key=>$value) { ${"displayby_".$key} = $value; } // x
+
+/* ----------------------------------------------------------------------
+7 / Set the section title and any special instructions for this section.
+---------------------------------------------------------------------- */
+$title = "";
+$instructions = "";
+
+/* ----------------------------------------------------------------------
+8 / Set the file to submit the form to (via ajax). Most of the time, it's this filename.
+---------------------------------------------------------------------- */
+$ajaxFilename = "";
+
+/* ----------------------------------------------------------------------
+9 / Set the database fields that are in the form and should be updated when the form is submitted.
+---------------------------------------------------------------------- */
+$fields = array();
+if ($sortField && in_array($sortField,$fields)) { unset($fields[$sortField]); } // x make sure $sortField is not in array
+if ($activeField && !in_array($activeField,$fields)) { $fields[] = $activeField; } // x make sure $activeField is in array
+
+/* ----------------------------------------------------------------------
+NEXT / That's it for setup. Now skip down to the form fields, and create a form element for each database field that you want to update.
+---------------------------------------------------------------------- */
+
+/* ======================================================================
+
+Form to Update a Single Entry /
+First, we handle any submitted form data. By default, fields (set in the array above) are saved to the database table (also set above).
+Next, we output the form. Customize it with the fields in your database table.
+
+====================================================================== */
+$addNew = false;
+$primaryKeyVal = 1;
+
+    /* ----------------------------------------------------------------------
+    Save / Here is where we save to the database. This is where you should do any custom handling of your data.
+    ---------------------------------------------------------------------- */
+    if (isset($_REQUEST['save']) || !$primaryKeyVal && !$addNew) {
+
+        $values = array(); //- get all database fields as variables
+        if($activeField && empty($_REQUEST[$activeField])) {
+            $_REQUEST[$activeField] = 0;
+        }
+        
+        if(isset($_REQUEST['button'])) {
+            foreach($_REQUEST['button'] AS $key => $val) {
+                $_REQUEST[$key.'_button'] = json_encode($val);
+            }
+        }
+
+        foreach($fields AS $key => $value) {
+            $values[$key] = $_REQUEST[$value];
+        }
+
+        // Save fields
+        $addupdate = addUpdate($tableName,$primaryKey,$primaryKeyVal,$fields,$values,false); //---- write to the database (this adds and updates)
+        $primaryKeyVal = $addupdate[$primaryKey]; // x get newly generated primaryKeyVal (in case we just added the entry)
+
+        // Save an image
+        if(isset($_FILES[''])) {
+            $addImage = addImage($tableName,$primaryKey,$primaryKeyVal,"","images/uploads/","original","","w");
+        }
+    }
+
+    /* ----------------------------------------------------------------------
+    Delete / Here is where we delete.
+    ---------------------------------------------------------------------- */
+    if (isset($_REQUEST['delete'])) {
+        $delete = deleteByFieldsValues($tableName,$primaryKey,$primaryKeyVal);
+    }
+
+    if (isset($_REQUEST['removeImage'])) {
+        $fieldName = $_REQUEST['fieldName'];
+        $addupdate = addUpdate($tableName,$primaryKey,$primaryKeyVal,$fieldName,"",false);
+    }
+
+    ?>
+
+    <?php
+    /* ----------------------------------------------------------------------
+    Random Set Up / Here we create a few variables and do some database queries that we'll use later. No need to mess with this section unless you want to.
+    ---------------------------------------------------------------------- */
+    $query = mysql_query("SELECT $primaryKey,$displayby_query$activeField_query FROM `$tableName` WHERE $primaryKey='$primaryKeyVal' LIMIT 1 ");
+    $q = mysql_fetch_assoc($query);
+
+    $listItemText = $q[$displayby_0];
+
+    $listItemLiHref = $primaryKey."-".$q[$primaryKey]; // listItem parent li link (so that the ajax form works correctly)
+
+    $mq = mysql_fetch_assoc(mysql_query("SELECT * FROM `$tableName` WHERE $primaryKey='$primaryKeyVal' LIMIT 1 ")); //---- get values to populate form
+
+    ?>
+
+    <script type="text/javascript">
+    $(function() {
+
+        <?php include("js/LEV_formJavascript.js"); ?> // include all the form javascript stuff. This needs to be a php include because it uses php variables from above.
+
+        function formBeforeSerialize() {
+            // this is called before the form serializes
+        }
+
+        function formSuccess() {
+            // this is called after the form successfully submits
+        }
+
+    });
+    </script>
+
+    <?php
+    /* ----------------------------------------------------------------------
+    Set Up the HTML Around Each Form Element / This variable holds code that goes before, between and after form labels and inputs. Override it if you want custom styling.
+    ---------------------------------------------------------------------- */
+    $formHTML = array(
+        'before'=>'<div class="oneField clearfix"><div class="three columns noMargin"><div class="leftSide">',
+        'between'=>'</div></div><div class="twelve columns noMargin"><div class="rightSide">',
+        'after'=>'</div></div></div>'
+    );
+    ?>
+
+    <h1><?php echo $title; ?></h1>
+    <h2><?php echo $instructions; ?></h2>
+
+    <?php
+    /* ----------------------------------------------------------------------
+    The Form / Manually add all database fields that you want users to update to this form. This is purposely left open for easy customization, but example of common form elements are all here so it's easy to get up and running.
+    ---------------------------------------------------------------------- */
+    ?>
+    <form id="addupdate_<?php echo $formSuffix; ?>" name="addupdate_<?php echo $formSuffix; ?>" method="post" action="<?php echo $ajaxFilename; ?>" enctype="multipart/form-data">
+
+        <div class="actionButtons"><div class="rightButton" style="position:absolute; right:1%; top:1%;"><a href="#cancel"><button type="button" class="saveButton" style="font-style:normal; padding:10px 15px;">X</button></a></div></div>
+
+        <input type="hidden" name="<?php echo $primaryKey; ?>" value="<?php echo $primaryKeyVal; ?>" />
+        <input type="hidden" name="primaryKey" value="<?php echo $primaryKey; ?>" />
+        <input type="hidden" name="primaryKeyVal" value="<?php echo $primaryKeyVal; ?>" />
+
+        <!-- Fields -->
+
+
+        
+
+
+        <!-- Fields -->
+
+        <!-- --------------/ Save, Cancel and Delete Buttons /------------------ -->
+        <?php echo $formHTML['before']; ?>&nbsp;<?php echo $formHTML['between']; ?>
+        <div class="actionButtons clearfix">
+            <div class="leftButton"><button type="submit" name="save" value="Close" class="saveButton">Save / Close</button></div>
+            <div class="leftButton"><button type="submit" name="save" value="Save">Save</button></div>
+            <?php if (!$noDelete) { ?><div class="rightButton"><a href="#delete"><button type="button" class="deleteButton">Delete</button></a></div><?php } ?>
+            <div class="rightButton"><a href="#cancel"><button type="button">Cancel</button></a></div>
+        </div>
+        <?php echo $formHTML['after']; ?>
+
+    </form>
+
+<?php mysql_close($conn); ?>
+```
+
+### Adding it to the menu
+
+Once you have created your file, you need to add it to `admin/index.php` this file contains a `$pageList` array with all the admin files in it.  Single page files need `?slideContent` attached to the end of them, while Dynamic admin pages are just the file name.
+
+## Font-end pages
+A blank front-end page should look like this:
+
+```php
+<?php $pagename = ""; ?>
+<?php $additionalHeadTags = ""; // <link rel='canonical' href='' /> ?>
+<?php include("header.php"); ?>
+
+<?php include("footer.php"); ?>
+```
+
+`$pagename` gets added to the `<main>` tag as a class and can be used to target the page in the sass.
+
+All data and content from the database that needs to be displayed needs to have its queries written manually. The projects will be a mix of `mysql_connect` and `mysqli`.
+
+To get the Styles to complie, you will need to run `compass watch` from the command line after installing it.
+
+## Troubleshooting
+> If you get a "leverage install" or "cannot connect to the database" error, you will need to add your ip address to the MediaTemple whitelist
+{.is-warning}
+	1. Login into the clients MediaTemple Account
+	2. Domain Admin
+	3. Mange Databases
+	4. Manage Users
+	5. Add My IP
+
+
+>  Styles Don't load, but the rest of the page shows up
+{.is-warning}
+	1. Make sure local.settings.php is there
+	2. Check that the URL in `CLIENT_WEBSITE` matches the url in your browser
+	3. Inspect element and look for the `<base href="">` tag in the header, does it match the url?
+
+> Admin Files arent saving
+{.is-warning}
+1. Add php warnings and debug from there
+
+```php
+ini_set('display_errors',1);
+ini_set('display_startup_errors',1);
+error_reporting(-1);
 ```
