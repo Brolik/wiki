@@ -694,21 +694,23 @@ To get the Styles to complie, you will need to run `compass watch` from the comm
 ## Troubleshooting
 > If you get a "leverage install" or "cannot connect to the database" error, you will need to add your ip address to the MediaTemple whitelist
 {.is-warning}
-	1. Login into the clients MediaTemple Account
-	2. Domain Admin
-	3. Mange Databases
-	4. Manage Users
-	5. Add My IP
 
+1. Login into the clients MediaTemple Account
+2. Domain Admin
+3. Mange Databases
+4. Manage Users
+5. Add My IP
 
 >  Styles Don't load, but the rest of the page shows up
 {.is-warning}
-	1. Make sure local.settings.php is there
-	2. Check that the URL in `CLIENT_WEBSITE` matches the url in your browser
-	3. Inspect element and look for the `<base href="">` tag in the header, does it match the url?
+
+1. Make sure local.settings.php is there
+2. Check that the URL in `CLIENT_WEBSITE` matches the url in your browser
+3. Inspect element and look for the `<base href="">` tag in the header, does it match the url?
 
 > Admin Files arent saving
 {.is-warning}
+
 1. Add php warnings and debug from there
 
 ```php
