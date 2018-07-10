@@ -12,7 +12,7 @@
 > **Why you should be doing this:** Brolik Still has several old clients on Leverage
 {.is-info}
 
-> **Who should you seek help from if necessary:** Kyle Jasso (jassok@brolik.com or kyle.jasso@gmail.com) For questions. Subject line: `BRO - Leverage: Questions?`
+> **Who should you seek help from if necessary:** Kyle Jasso (jassok@brolik.com or kyle.jasso@gmail.com) For questions. Subject line: `BRO - Leverage: [Add Questions here]`
 {.is-info}
 
 > **How long should this take:**
