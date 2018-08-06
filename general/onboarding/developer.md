@@ -26,6 +26,7 @@ Brolik uses a range of programs for develop. Some software will have requirement
 7. Git - https://git-scm.com/
 8. Node.JS - https://nodejs.org/en/
 9. NPM - https://docs.npmjs.com/cli/install
+10. Composer - https://getcomposer.org/download/
 10. Homebrew - https://brew.sh/
 11. Valet - https://laravel.com/docs/5.6/valet
 
