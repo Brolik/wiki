@@ -3,19 +3,19 @@
 
 # Introduction
 
-> **Who should be doing this:**
+> **Who should be doing this:** Developers, Designers, and Marketers
 {.is-info}
 
-> **What will  you be doing:**
+> **What will  you be doing:** Prepareing a website for launch
 {.is-info}
 
-> **Why you should be doing this:**
+> **Why you should be doing this:** To insure quality control on our websites
 {.is-info}
 
-> **Who should you seek help from if necessary:**
+> **Who should you seek help from if necessary:** Lead Developer, Lead Designer, CMO
 {.is-info}
 
-> **How long should this take:**
+> **How long should this take:** 2-3 Days
 {.is-info}
 
 -----
