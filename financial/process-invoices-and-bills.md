@@ -21,8 +21,8 @@ Access to Quickbooks online and our Freelance Management Dashboard
 2. Login to Quickbooks Online using the credentials provided, ask Matt Sommer if you do not have them.
 3. Select “Expenses” from the left column, then “Vendors” from the top.
 4. For each unpaid bill, contractor invoice or reimbursement:
-					a. search for the Vendor, then create a new bill by selecting “New Transaction” in the top right corner, or copying the last bill by opening and selecting copy
-					b. Complete the Terms, Bill Date and Due Date, Description, invoice number and Amount fields based on the information provided on the bill, invoice or reimbursement
+   1. search for the Vendor, then create a new bill by selecting “New Transaction” in the top right corner, or copying the last bill by opening and selecting copy
+   1. Complete the Terms, Bill Date and Due Date, Description, invoice number and Amount fields based on the information provided on the bill, invoice or reimbursement
 i. If a reimbursement, the payment terms should be Net 15
 If the payment terms don’t line up with the Due Date, go with the Due Date
 Select the proper Account for the transaction based on the Expense Types breakdown below
