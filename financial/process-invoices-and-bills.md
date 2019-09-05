@@ -31,15 +31,15 @@ Access to Quickbooks online and our Freelance Management Dashboard
 1. For each paid bill, find a matching transaction in the “Banking” tab QB and make sure it is properly matched and categorized
 1. If you are unsure whether the bill is paid or unpaid, ask the person who submitted it, or Matt Sommer if you are unsure
 1. **If it is a bill**
-Put in the “To Scan” folder
-**If it is a contractor invoice:**
-Navigate to the BRO Freelance Dashboard
-Find the contractor in question on the list and attempt to find the related expense
-Mark the cell yellow if it has not been already and enter any key details in the notes if not already completed
-If you do not find the expense bring to Matt Sommer
-Put invoice in the “To Scan” folder
-**If it is a reimbursement**
-Put in the “To File” folder
+   1. Put in the “To Scan” folder
+1. **If it is a contractor invoice:**
+   1. Navigate to the BRO Freelance Dashboard
+   1. Find the contractor in question on the list and attempt to find the related expense
+   1. Mark the cell yellow if it has not been already and enter any key details in the notes if not already completed
+   1. If you do not find the expense bring to Matt Sommer
+   1. Put invoice in the “To Scan” folder
+9. **If it is a reimbursement**
+   1. Put in the “To File” folder
 
 ## Task 1
 
