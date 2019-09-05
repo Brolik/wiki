@@ -15,11 +15,11 @@
 > **What do I need?:**
 {.is-info} A print or digital (pdf or email) receipt of the transaction.
 
-> > **Who should you seek help from if necessary?:**
+>  **Who should you seek help from if necessary?:**
 {.is-info} Matt Sommer
 
 > **How long should this take:**
-{.is-info}
+{.is-info} Less than 5 minutes
 
 -----
 # Process
