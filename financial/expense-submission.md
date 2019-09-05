@@ -4,22 +4,22 @@
 # Introduction
 
 > **Who should be doing this:**
-{.is-info} Anyone who has spent money on behalf of Brolik of our client
+Anyone who has spent money on behalf of Brolik of our client
 
 > **What am I doing?:**
-{.is-info} Submitting any expenses incurred on Brolik’s or our clients’ behalf in the course of completing your roles and responsibilities
+Submitting any expenses incurred on Brolik’s or our clients’ behalf in the course of completing your roles and responsibilities
 
 > **When?:**
-{.is-info} Any time you authorize an expense from Brolik’s accounts (credit, debit etc.) that does not require a reimbursement
+Any time you authorize an expense from Brolik’s accounts (credit, debit etc.) that does not require a reimbursement
 
 > **What do I need?:**
-{.is-info} A print or digital (pdf or email) receipt of the transaction.
+A print or digital (pdf or email) receipt of the transaction.
 
 >  **Who should you seek help from if necessary?:**
-{.is-info} Matt Sommer
+{Matt Sommer
 
 > **How long should this take:**
-{.is-info} Less than 5 minutes
+Less than 5 minutes
 
 -----
 # Process
