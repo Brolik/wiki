@@ -24,9 +24,9 @@ Access to Quickbooks online and our Freelance Management Dashboard
    1. search for the Vendor, then create a new bill by selecting “New Transaction” in the top right corner, or copying the last bill by opening and selecting copy
    1. Complete the Terms, Bill Date and Due Date, Description, invoice number and Amount fields based on the information provided on the bill, invoice or reimbursement
       1. If a reimbursement, the payment terms should be Net 15
-If the payment terms don’t line up with the Due Date, go with the Due Date
-Select the proper Account for the transaction based on the Expense Types breakdown below
-If related to a particular client account (look for a client code), select that client in the “Client” field. This is particularly important with contractor invoices, 95% of which should be related to a client.
+      1. If the payment terms don’t line up with the Due Date, go with the Due Date
+   1. Select the proper Account for the transaction based on the Expense Types breakdown below
+   1. If related to a particular client account (look for a client code), select that client in the “Client” field. This is particularly important with contractor invoices, 95% of which should be related to a client.
 Once the bill is entered, write “In QB” at the top right corner of the bill, invoice or reimbursement form.
 For each paid bill, find a matching transaction in the “Banking” tab QB and make sure it is properly matched and categorized
 If you are unsure whether the bill is paid or unpaid, ask the person who submitted it, or Matt Sommer if you are unsure
