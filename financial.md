@@ -5,7 +5,7 @@
 Table of Contents:
 
 Team Process
-[link](http://wiki.brolik.com/financial/expense-submission "Expense Submission")
+[](http://wiki.brolik.com/financial/expense-submission)
 Reimbursement Submission - http://wiki.brolik.com/financial/reimbursement-submission
 Financial Admin Process
 Process Invoices & Bills
