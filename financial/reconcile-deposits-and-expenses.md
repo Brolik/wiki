@@ -1,5 +1,5 @@
 <!-- TITLE: Reconcile Deposits And Expenses -->
-<!-- SUBTITLE: A quick summary of Reconcile Deposits And Expenses -->
+<!-- SUBTITLE: The process for reconciling all of out transactions in Quickbooks -->
 
 # Introduction
 
