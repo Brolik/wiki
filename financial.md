@@ -2,7 +2,7 @@
 <!-- SUBTITLE: Internal Brolik financial processes -->
 
 # Financial
-##Table of Contents:
+## Table of Contents:
 
 **Team Processes**
 [Expense Submission](http://wiki.brolik.com/financial/expense-submission)
