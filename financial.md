@@ -11,7 +11,7 @@
 **Financial Admin Processes**
 [Process Invoices & Bills](http://wiki.brolik.com/financial/process-invoices-and-bills)
 [File Bills and Paperwork](http://wiki.brolik.com/financial/file-bills-and-paperwork)
-Reconcile Deposits and Expenses
+[Reconcile Deposits and Expenses](http://wiki.brolik.com/financial/reconcile-deposits-and-expenses)
 Process Approved A/P
 Reconcile Monthly Ad Spend
 Invoice Clients
