@@ -23,7 +23,7 @@ Access to Quickbooks online and our Freelance Management Dashboard
 4. For each unpaid bill, contractor invoice or reimbursement:
    1. search for the Vendor, then create a new bill by selecting “New Transaction” in the top right corner, or copying the last bill by opening and selecting copy
    1. Complete the Terms, Bill Date and Due Date, Description, invoice number and Amount fields based on the information provided on the bill, invoice or reimbursement
-i. If a reimbursement, the payment terms should be Net 15
+      1. If a reimbursement, the payment terms should be Net 15
 If the payment terms don’t line up with the Due Date, go with the Due Date
 Select the proper Account for the transaction based on the Expense Types breakdown below
 If related to a particular client account (look for a client code), select that client in the “Client” field. This is particularly important with contractor invoices, 95% of which should be related to a client.
@@ -42,11 +42,7 @@ Put invoice in the “To Scan” folder
 Put in the “To File” folder
 
 ## Task 1
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
+
  
 ### Step 1
 
