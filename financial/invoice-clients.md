@@ -20,7 +20,7 @@ Matt Sommer
 
 -----
 # Process
-1. Open the [projected tab in the Financial Dashboard](https://docs.google.com/spreadsheets/d/1aFj4xylJZHepUFGmMmMZNJjIFwAUf6zeMfOZQJGsE6Q/edit#gid=456463226) <a href="http://example.com/" target="_blank">Hello, world!</a>
+1. Open the <a href="https://docs.google.com/spreadsheets/d/1aFj4xylJZHepUFGmMmMZNJjIFwAUf6zeMfOZQJGsE6Q/edit#gid=456463226" target="_blank">projected tab in the Financial Dashboard!</a>
 1. Go down the current month column looking at the notes in each client's row for invoices that are marked to send on this batch (1st or 15th of the month), and highlight them blue
 1. Sit down with Matt Sommer to review invoices and approve for sending
 1. Log into QuickBooks online and navigate to the Sales tab
