@@ -27,10 +27,10 @@ Access to Quickbooks online and our Freelance Management Dashboard
       1. If the payment terms don’t line up with the Due Date, go with the Due Date
    1. Select the proper Account for the transaction based on the Expense Types breakdown below
    1. If related to a particular client account (look for a client code), select that client in the “Client” field. This is particularly important with contractor invoices, 95% of which should be related to a client.
-Once the bill is entered, write “In QB” at the top right corner of the bill, invoice or reimbursement form.
-For each paid bill, find a matching transaction in the “Banking” tab QB and make sure it is properly matched and categorized
-If you are unsure whether the bill is paid or unpaid, ask the person who submitted it, or Matt Sommer if you are unsure
-**If it is a bill**
+   1. Once the bill is entered, write “In QB” at the top right corner of the bill, invoice or reimbursement form.
+1. For each paid bill, find a matching transaction in the “Banking” tab QB and make sure it is properly matched and categorized
+1. If you are unsure whether the bill is paid or unpaid, ask the person who submitted it, or Matt Sommer if you are unsure
+1. **If it is a bill**
 Put in the “To Scan” folder
 **If it is a contractor invoice:**
 Navigate to the BRO Freelance Dashboard
