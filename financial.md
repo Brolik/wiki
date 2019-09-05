@@ -9,7 +9,7 @@
 [Reimbursement Submission](http://wiki.brolik.com/financial/reimbursement-submission)
 
 **Financial Admin Processes**
-Process Invoices & Bills
+[Process Invoices & Bills](http://wiki.brolik.com/financial/process-invoices-and-bills)
 File Bills and Paperwork
 Reconcile Deposits and Expenses
 Process Approved A/P
