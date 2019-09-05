@@ -16,7 +16,7 @@ Any time you authorize an expense from Brolik’s accounts (credit, debit etc.) 
 A print or digital (pdf or email) receipt of the transaction.
 
 >  **Who should you seek help from if necessary?:**
-{Matt Sommer
+Matt Sommer
 
 > **How long should this take:**
 Less than 5 minutes
