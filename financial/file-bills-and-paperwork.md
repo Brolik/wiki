@@ -1,5 +1,5 @@
 <!-- TITLE: File Bills And Paperwork -->
-<!-- SUBTITLE: A quick summary of File Bills And Paperwork -->
+<!-- SUBTITLE: The process for scanning and filling all important paperwork -->
 
 # Introduction
 
