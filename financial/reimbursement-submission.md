@@ -4,16 +4,16 @@
 # Introduction
 
 > **What am I doing?**
- Submitting expenses for reimbursement that are incurred on Brolik’s or our clients’ behalf in the course of completing your roles and responsibilities
+Submitting expenses for reimbursement that are incurred on Brolik’s or our clients’ behalf in the course of completing your roles and responsibilities
 
 > **When?**
-{.is-info} Any time you spend your own money on a Brolik or client related expense and require a reimbursement
+Any time you spend your own money on a Brolik or client related expense and require a reimbursement
 
 > **What do I need?**
-{.is-info} A print or digital (pdf or email) receipt of the transaction.
+A print or digital (pdf or email) receipt of the transaction.
 
 > **How long should this take?**
-{.is-info} Less than 5 minutes
+Less than 5 minutes
 
 -----
 # Process
