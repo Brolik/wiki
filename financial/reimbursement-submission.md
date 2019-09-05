@@ -4,7 +4,7 @@
 # Introduction
 
 > **What am I doing?**
-{.is-info} Submitting expenses for reimbursement that are incurred on Brolik’s or our clients’ behalf in the course of completing your roles and responsibilities
+ Submitting expenses for reimbursement that are incurred on Brolik’s or our clients’ behalf in the course of completing your roles and responsibilities
 
 > **When?**
 {.is-info} Any time you spend your own money on a Brolik or client related expense and require a reimbursement
