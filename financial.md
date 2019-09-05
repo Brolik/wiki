@@ -4,11 +4,11 @@
 # Financial
 Table of Contents:
 
-*Team Processes*
+**Team Processes**
 [Expense Submission](http://wiki.brolik.com/financial/expense-submission)
 [Reimbursement Submission](http://wiki.brolik.com/financial/reimbursement-submission)
 
-Financial Admin Processes
+**Financial Admin Processes**
 Process Invoices & Bills
 File Bills and Paperwork
 Reconcile Deposits and Expenses
