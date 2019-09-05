@@ -42,11 +42,11 @@ Access to Quickbooks online and our Freelance Management Dashboard
    1. Put in the “To File” folder
 
 ## Expense Types
--Contractor expenses - All client contractor expenses go under the “Contractor: “ account, into a sub account denoting the type of work that they did. Use the invoice as guidance, or ask Matt Sommer if you can’t figure out which sub account they belong in.
--General Bills - The majority of bills that come in will we related to general office and operations expenses. Most will pre-populate with the proper account. If not, ask.
--Reimbursements - These will generally either be Sales and Marketing related or general team/professional development related. 
---Sales & Marketing - These should be marked as either Sales Meeting or Network Event related, which will guide you to either “Sales & Marketing: Sales Meetings” or “Sales & Marketing: Network Events.” If neither, ask.
---General Team - If for an industry related event that is not sales oriented, they should go under “General & Administrative: Professional Development”, otherwise “General & Administrative: Travel and Ent”
+* Contractor expenses - All client contractor expenses go under the “Contractor: “ account, into a sub account denoting the type of work that they did. Use the invoice as guidance, or ask Matt Sommer if you can’t figure out which sub account they belong in.
+* General Bills - The majority of bills that come in will we related to general office and operations expenses. Most will pre-populate with the proper account. If not, ask.
+* Reimbursements - These will generally either be Sales and Marketing related or general team/professional development related. 
+   * Sales & Marketing - These should be marked as either Sales Meeting or Network Event related, which will guide you to either “Sales & Marketing: Sales Meetings” or “Sales & Marketing: Network Events.” If neither, ask.
+   * General Team - If for an industry related event that is not sales oriented, they should go under “General & Administrative: Professional Development”, otherwise “General & Administrative: Travel and Ent”
 
 *Have any questions? Don’t hesitate to ask!*
 
