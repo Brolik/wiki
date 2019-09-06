@@ -44,12 +44,12 @@ Matt Sommer
 
 ## Marking receipt in the Financial Dashboard and Cash Flow
 
-1. Open the BRO Financial Dashboard Google Sheet
+1. Open the <a href="https://docs.google.com/spreadsheets/d/1aFj4xylJZHepUFGmMmMZNJjIFwAUf6zeMfOZQJGsE6Q/edit#gid=0" target="_blank">BRO Financial Dashboard</a> Google Sheet
 1. Select the “Invoiced” tab, then find the invoice/payment, and mark it green
 1. Copy/paste the payment into the month it was received in the “Received” tab
 1. Click on the cell with the payment to see the notes. If there is a commision noted, calculate the amount based on the percentage and invoice amount
 1. Add the correct amount to the “Commissions” tab for the relevant person
-1. Open the BRO Cash Budget Projection Google Sheet
+1. Open the <a href="https://docs.google.com/spreadsheets/d/1Gqwejuwl6LvYITNylTvVgqP4rBsbQbEfAkAlDIOUNTk/edit#gid=465573952" target="_blank">BRO Cash Budget Projection</a> Google Sheet
 1. Navigate to the Cash Flow-Checking tab
 1. Add the deposits to the Cash projection on the day of deposit, while notating the client using the client code
 
