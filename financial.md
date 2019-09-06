@@ -13,7 +13,7 @@
 [File Bills and Paperwork](http://wiki.brolik.com/financial/file-bills-and-paperwork)
 [Reconcile Deposits and Expenses](http://wiki.brolik.com/financial/reconcile-deposits-and-expenses)
 [Process Approved A/P](http://wiki.brolik.com/financial/process-approved-ap)
-Reconcile Monthly Ad Spend
+Reconciling Client Ad Spend
 [Invoice Clients](http://wiki.brolik.com/financial/invoice-clients)
 Send Overdue Invoice Reminders
 Deposit Payments
