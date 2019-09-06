@@ -16,7 +16,7 @@
 [Reconciling Client Ad Spend](http://wiki.brolik.com/financial/reconciling-client-ad-spend)
 [Invoice Clients](http://wiki.brolik.com/financial/invoice-clients)
 [Send Overdue Invoice Reminders](http://wiki.brolik.com/financial/send-overdue-invoice-reminders)
-Deposit Payments
+[Deposit Payments](http://wiki.brolik.com/financial/deposit-payments)
 Preparing for Payroll
 Reconciling Ad Spend to Clients
 
