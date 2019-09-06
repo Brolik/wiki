@@ -15,7 +15,7 @@
 [Process Approved A/P](http://wiki.brolik.com/financial/process-approved-ap)
 [Reconciling Client Ad Spend](http://wiki.brolik.com/financial/reconciling-client-ad-spend)
 [Invoice Clients](http://wiki.brolik.com/financial/invoice-clients)
-Send Overdue Invoice Reminders
+[Send Overdue Invoice Reminders](http://wiki.brolik.com/financial/send-overdue-invoice-reminders)
 Deposit Payments
 Preparing for Payroll
 Reconciling Ad Spend to Clients
