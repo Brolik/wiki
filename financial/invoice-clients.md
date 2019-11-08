@@ -24,8 +24,8 @@ Matt Sommer
 1. Go down the current month column looking at the notes in each client's row for invoices that are marked to send on this batch (1st or 15th of the month), and highlight them blue
 1. Sit down with Matt Sommer to review invoices and approve for sending
 1. For marketing retainer clients, make sure to update the monthly tool spend (except for RFG and MLCS)
-  1. Open the Budget and Effectiveness sheet and navigate to the Tools tab
-  2. Add the number in the “Monthly Tools Cost” row to the note in the Financial Dashboard for each client invoice, and then add the amount to the invoice value
+    1. Open the Budget and Effectiveness sheet and navigate to the Tools tab
+    2. Add the number in the “Monthly Tools Cost” row to the note in the Financial Dashboard for each client invoice, and then add the amount to the invoice value
 1. Log into QuickBooks online and navigate to the Sales tab
 1. Starting from the top of the list of invoices to be sent in the Financial dashboard, type the client’s name into the search field and select it when it appears in the dropdown
 1. Click on the last invoice sent, and when open select the Copy command from the bottom of the screen
